@@ -26,5 +26,11 @@
                         
             }
         }
+        public static void GetPOW(double a,double b) {
+            Console.WriteLine($"Answer={Math.Pow(a, b)}" );
+        }        
+        public static void GetSqrt(double a) {
+            Console.WriteLine($"Answer={Math.Sqrt(a)}" );
+        }
     }
 }
